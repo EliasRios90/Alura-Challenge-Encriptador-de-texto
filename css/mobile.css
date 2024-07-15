@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fuente-inter: 'Inter', sans-serif;
+    --fuente-peso: 400;
+}
+
+
+
+.header, .contenedor{
+    padding: 16px;
+}
+
+.header__logo{
+    width: 32px;
+}
+
+
+#texto__no__encriptado{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    resize: none;
+    height: 400px;
+    outline: none;
+    font-size: 32px;
+    font-weight: var(--fuente-peso);
+    color: darkblue;
+    font-family: var(--fuente-inter);
+}
+
+.contenedor__texto__advertencia{
+    gap: 5px;
+    display: flex;
+    font-size: 12px;
+    font-weight: var(--fuente-peso);
+    align-items: center;
+    font-family: var(--fuente-inter);
+}
+
+.contenedor__texto__botones{
+    gap: 24px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boton{
+    width: 343px;
+    height: 67px;
+    padding: 15px 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: var(--fuente-peso);
+    color: darkblue;
+    border-radius: 24px;
+    border: 1px solid darkblue;
+    font-family: var(--fuente-inter);
+}
+
+#btn__encriptador{
+    color: whitesmoke;
+    background-color: darkblue;
+}
+
+
+
+
+.contenedor__resultado{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-radius: 32px;
+    margin-top: 50px;
+    padding: 32px;
+}
+
+.contenedor__resultado__imagen{
+    display: none;
+}
+
+.contenedor__resultado__titulo{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: var(--fuente-inter);
+}
+
+.contenedor__resultado__texto{
+    font-size: 16px;
+    font-weight: var(--fuente-peso);
+    text-align: center;
+    font-family: var(--fuente-inter);
+}
+
+#texto__encriptado{
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    display: none;
+    color: grey;
+    font-size: 24px;
+    font-weight: var(--fuente-peso);
+    margin-bottom: 20px;
+    font-family: var(--fuente-inter);
+}
+
+#btn__copiar{
+    display: none;
+    margin: auto;
+}
+
+
+
+
+.footer{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 50px 10px;
+    justify-content: center;
+}
+
+.footer__copyright{
+    font-family: var(--fuente-inter);
+    font-weight: var(--fuente-peso);
+}
+
+.footer__icono{
+    margin: 0 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.icono__github{
+    color: purple;
+}
+
+.icono__email{
+    color: brown;
+}

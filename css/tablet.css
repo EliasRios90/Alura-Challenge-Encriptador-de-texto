@@ -1,0 +1,20 @@
+
+.header, .contenedor{
+    padding: 20px;
+}
+
+
+.contenedor__texto__botones{
+    flex-direction: row;
+}
+
+.boton{
+    width: 332px;
+}
+
+
+
+.footer{
+    flex-direction: row;
+    justify-content: space-between;
+}

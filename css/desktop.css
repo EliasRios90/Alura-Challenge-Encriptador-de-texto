@@ -1,0 +1,38 @@
+.header{
+    padding: 40px 40px 0;
+}
+
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor__texto{
+    width: 100%;
+    padding: 0px 80px;
+}
+
+#texto__no__encriptado{
+    height: 700px;
+}
+
+
+
+.contenedor__resultado{
+    width: 500px;
+    height: 835px;
+    margin-top: 0;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor__resultado__imagen{
+    display: block;
+}
+
+#btn__copiar{
+    padding: 23px 0;
+    margin: 0;
+}
